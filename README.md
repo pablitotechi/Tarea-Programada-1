@@ -6,6 +6,8 @@ Este proyecto procesa datos de jugadas de la NFL obtenidos del repositorio nflsc
 
 Estructura del Proyecto
 
+Archivos Principales
+
 punt_play.py: Contiene la clase PuntPlay, que representa una jugada de despeje con los siguientes atributos:
 
 ID del juego
@@ -40,14 +42,15 @@ Mide y muestra en pantalla los tiempos de ejecución de cada algoritmo.
 
 Genera archivos de salida con los resultados de cada algoritmo.
 
-Ubicación de los archivos de datos
+Ubicación de los Archivos de Datos
 
 Los archivos de datos deben estar en la siguiente ubicación:
 
 Mac: \data\primeraprogramada
 
 Windows: C:\data\primeraprogramada
-Si el programa no encuentra los archivos en esta ubicación, la nota máxima será de 75.
+
+⚠️ Si el programa no encuentra los archivos en esta ubicación, la nota máxima será de 75.
 
 Segunda Parte
 
@@ -63,11 +66,11 @@ En caso de empate en la distancia, se prioriza la jugada más temprana en el tie
 
 Salida del Programa
 
-Carpeta con archivos CSV con las jugadas ordenadas por cada algoritmo, nombrados como:
+Archivos CSV con las jugadas ordenadas por cada algoritmo, nombrados como:
 
-resultado (para la primera parte)
+XXXXX-resultado.csv (para la primera parte)
 
-resultados_parte2 (para la segunda parte)
+XXXXX-resultado-segunda.csv (para la segunda parte)
 
 Tiempos de ejecución de cada algoritmo mostrados en pantalla.
 
@@ -80,3 +83,4 @@ Para ejecutar el programa:
 python main.py
 
 Asegúrese de que todos los archivos requeridos están en la ubicación correcta antes de correr el programa.
+
