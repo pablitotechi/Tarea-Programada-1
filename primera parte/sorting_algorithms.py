@@ -1,6 +1,4 @@
 import time
-
-
 class SortingAlgorithms:
     @staticmethod
     def bubble_sort(arr):
